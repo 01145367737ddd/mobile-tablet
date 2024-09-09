@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+}
+
+
+.logo img {
+    width: 100px; 
+    
+}
+.lg{
+    background-color:  rgb(67, 95, 186);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    color: #ffffff;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    background-color:  rgb(67, 95, 186);
+}
+
+nav ul li {
+    margin: 10px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color:  rgb(67, 95, 186);
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    background-color:rgb(105, 165, 243);
+}
+
+.text {
+    margin-bottom: 20px;
+}
+
+.text h1 {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.text p {
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.bt {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #f04;
+    color: white;
+    text-decoration: none;
+}
+.btt{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.freelancer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+}
+
+.freelancer img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.free{
+    font-size: small;
+}
+.btttt{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #f04;
+    color: white;
+    text-decoration: none;
+}
+.bttttttt{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    text-decoration: none;
+}
+
+/* Category Section */
+.ctg {
+    text-align: center;
+}
+
+.ctg .abc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.abc{
+    width: 30%;
+    margin-bottom: 20px;
+    
+    
+}
+    
+
+.asd{
+    width: 30%;
+    margin-bottom: 20px;
+   
+}
+
+.img{
+    width: 100%;
+    height: auto;
+    margin-left: 500px;
+}
+
+
+.ddd{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #69a5f3;
+
+}
+
+/* About Section */
+.about {
+    width: 100%;
+    height: auto;
+}
+
+.abt {
+    text-align: center;
+}
+
+.para {
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}
+.red{
+      display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #f04;
+    color: white;
+    text-decoration: none;
+}
+/* Work Section */
+.workk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+   
+}
+
+
+.circleee img {
+    width: 96px;
+    height: 96px;
+    background-color: rgb(67, 181, 181);
+    border-radius: 50%;
+}
+
+.texty {
+    text-align: center;
+}
+
+.texty h5 {
+    font-size: 16px;
+}
+.numberr{
+    color: #f04;
+}
+
+/* Reviews Section */
+.reviews {
+    padding: 20px;
+    text-align: center;
+}
+
+.review h4 {
+    font-size: 18px;
+}
+
+footer {
+    background-color: #03b49c81;
+    padding: 40px 0;
+    color: white;
+    text-align: center;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    background-color: #03b49c81;
+    padding: 15px 0;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+
+/* Media Queries for screens smaller than 768px */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero img {
+        width: 100%;
+    }
+
+    .freelancer, .workk, .ctg, .reviews, .footer-column {
+        width: 100%;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+}
+h2{
+    text-align: center;
+}
